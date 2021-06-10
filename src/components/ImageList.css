@@ -1,10 +1,24 @@
+body {
+	background-color: #fcf6f5ff;
+}
+
+.search-bar {
+	background-color: #fcf6f5ff !important;
+}
+
+.text-color {
+	color: #8abad3ff !important;
+}
+
 .image-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	grid-gap: 0 10px;
-    grid-auto-rows: 10px;
+	grid-auto-rows: 10px;
 }
 
 .image-list img {
 	width: 250px;
+	border: 2px solid #edc2d8ff;
+	border-radius: 25px;
 }

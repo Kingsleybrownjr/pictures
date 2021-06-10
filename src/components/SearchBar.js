@@ -11,11 +11,12 @@ class SearchBar extends Component {
 
 	render() {
 		return (
-			<div className="ui segment">
+			<div className="search-bar ui segment">
 				<form className="ui form" onSubmit={this.onSubmitForm}>
-					<div className="field">
-						<label htmlFor="search-bar">Image Search: </label>
+					<div className="field ">
+						<label className='text-color' htmlFor="search-bar">Image Search: </label>
 						<input
+							className="text-color"
 							type="text"
 							id="search-bar"
 							value={this.state.term}

@@ -20,9 +20,9 @@ class App extends Component {
 		return (
 			<div className="ui container" style={{ marginTop: '1rem' }}>
 				<SearchBar searchTerm={this.onSearchSubmit} />
-				Found: {this.state.images.length} images.
+				<p className="text-color">Found: {this.state.images.length} images</p>
 
-				<ImageList images={this.state.images}/>
+				<ImageList images={this.state.images} />
 			</div>
 		);
 	}
