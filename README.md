@@ -1,3 +1,31 @@
+### The challenge
+
+Users should be able to:
+
+- Search any kind of picture they like.
+- See the pictures in a nice grid layout.
+
+### Links
+
+- Live Site URL: https://blogrpage.netlify.app/
+
+### Built with
+
+- React JS
+- CSS Grid
+- Axios
+- Semantic UI
+- Async / Await
+
+### What I learned
+
+In this project I learned more about the props system, not only in functional components but also in Class components. Was able to gain knowledge on how to properly access props depending on what kind of component I was using. Also dived deeper into learning more about Axios, to be more specific how to use axios.create, along with setting headeres and params. Finally learned more about CSS grid. 
+
+### Continued development
+
+From here I want to dive deeper in my react learning, figure out how to make more reusuable components just incase I or a team member need them in the future. Get a deeper understand of project structure and build up on my CSS skills.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
